@@ -1,6 +1,0 @@
-{"nome":"Ana Luisa","genero":"feminino","nascimento":"2001-01-01","telefone":"(01) 99999-0001","email":"analuisa@email.com"}
-{"nome":"Bianca","genero":"feminino","nascimento":"2002-02-02","telefone":"(02) 99999-0002","email":"bianca@email.com"}
-{"nome":"Caio","genero":"masculino","nascimento":"2003-03-03","telefone":"(03) 99999-0003","email":"caio@email.com"}
-{"nome":"Daniel","genero":"masculino","nascimento":"2004-04-04","telefone":"(04) 99999-0004","email":"daniel@email.com"}
-{"nome":"Eliana","genero":"feminino","nascimento":"2005-05-05","telefone":"(05) 99999-0005","email":"eliana@email.com"}
-{"nome":"Fernando","genero":"masculino","nascimento":"2006-06-06","telefone":"(06) 99999-0006","email":"fernando@email.com"}
