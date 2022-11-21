@@ -1,0 +1,39 @@
+Linguagem tecnica de programação
+Professor: Marcio Araya
+Grupo: Atena Cristina e Mariana Alves
+
+1. Escreva o código para produzir um formulário que receba:
+
+a) Nome
+b) Gênero (usar botão de rádio com as opções: Masculino, Feminino, Prefiro não informar)
+c) Data de Nascimento
+d) Telefone com DDD
+e) Email
+
+2. Escreva um programa PHP que receba e exiba os dados que foram digitados no formulário.
+Todos os campos são obrigatórios. Escreva o código para validar o preenchimento dos campos.
+Estude as funções (pode usar o site http://php.net ou o https://w3schools.com):
+
+json_encode(), 
+json_decode(),
+fopen(), 
+fgets(), 
+fwrite(),
+ fclose()
+Escreva o código para receber os dados do formulário do exercício anterior e grave os 
+dados em um arquivo de texto. Os dados devem ser convertidos para o formato JSON antes de
+serem gravados.
+
+Dicas: armazenar os valores recebidos em um vetor e usar a função json_encode.
+Como desejamos usar a função fgets para ler o arquivo, será necessário acrescentar os 
+caracteres de final de linha. No  Windows deve acrescentar os caracteres CR e LF, chr(13) e chr(10). 
+O Linux usa apenas um caracter para marcar o final de linha, o LF, chr(10). E o MacOs usa 
+o caracter CR, chr(13), para marcar o final de linha. No PHP existe a constante PHP_EOL que vai 
+fornecer o(s) caracter(es) correto(s).
+
+Exemplo: fwrite($arq, $linha . PHP_EOL);
+
+Depois escreva outro programa para ler o arquivo de texto e exiba os dados lidos do arquivo no 
+formato de tabela HTML. Cada linha deve exibir os dados de uma pessoa.
+
+Dicas:Veja o link para "filter_input (php.net)" e "Filtros (PHP 7) - w3school" que filtros podem ser usados
